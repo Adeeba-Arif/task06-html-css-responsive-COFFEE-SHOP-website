@@ -44,7 +44,7 @@ body{
     background-color: #63331b;
     color: #d3a889;
 }
-.hero-section{
+#hero-section{
     height: 300px;
     padding-top: 150px;
     margin-left: 100px;
@@ -109,7 +109,7 @@ body{
     background-size: cover;
     width: 175px;
     height: 200px;
-    background-color:#c79873;
+    /* background-color:#c79873; */
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 4px 8px #00000033;
@@ -150,4 +150,94 @@ body{
     padding-left: 150px;
     color: #2c1707;
     font-size: x-large;
+}
+#heading2{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.group-cold-coffee{
+    margin-top: 100px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.cold-coffee{
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(46, 14, 14);
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.4s ease-in 0.09s;
+}
+.cold-coffee img{
+    padding-top: 30px;
+    width: 100px;
+    height: 175px;
+}
+.cold-coffee h6{
+    color: #2c1707;
+    font-size: larger;
+    margin-left: 10px;
+}
+.group-cold-coffee :hover{
+    transform: translateY(-10px);
+}
+#heading3{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.group-beans{
+    margin-top: 150px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.beans{
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #2e0e0e;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.beans img{
+    margin-top: -120px;
+    margin-left: -15px;
+    width: 250px;
+    height: 300px;
+}
+.beans h6{
+    color: #2c1707;
+    font-size: large;
+    margin-top: -40px;
+    margin-left: 10px;
+}
+footer{
+    margin-top: 100px;
+    background-image: url(./img/bgs/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    color: #fff;
+}
+footer p{
+    margin-top: 40px;
+}
+.offer img{
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
 }
