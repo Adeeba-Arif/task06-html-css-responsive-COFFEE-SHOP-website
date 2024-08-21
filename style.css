@@ -4,7 +4,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Tahoma, sans-serif;
 }
 body{
-    background: linear-gradient(10deg, #533c2c, #664733, #c79873, #e7c39d);
+    background: linear-gradient(10deg, #694c36, #7e563c, #c79873, #dbb893);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -209,7 +209,7 @@ body{
 }
 .beans img{
     margin-top: -120px;
-    margin-left: -15px;
+    margin-left: -20px;
     width: 250px;
     height: 300px;
 }
