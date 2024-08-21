@@ -73,7 +73,7 @@ body{
 .hero-text a{
     position: absolute;
     margin-top: 20px;
-    background-color: #d8b296;
+    background-color: #c79873;
     font-weight: bold;
     color: #6f4e37;
     border-radius: 10px;
@@ -85,4 +85,47 @@ body{
 .hero-text a:hover{
     background-color: #63331b;
     color: #d3a889;
+}
+.coffee-category{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+#heading1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 90px;
+}
+.group-coffee{
+    padding-top: 40px;
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-around;
+}
+.coffee{
+    background-image: url(./img/bgs/coff-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 175px;
+    height: 200px;
+    background-color:#c79873;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px #00000033;
+    cursor: pointer;
+}
+.coffee img{
+    margin-top: -70px;
+    margin-left: -55px;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+}
+.coffee h6{
+    padding-top: 90px;
+    color: #f1e4e4;
+    font-weight: bolder;
+    font-size: x-large;
 }
