@@ -44,3 +44,45 @@ body{
     background-color: #63331b;
     color: #d3a889;
 }
+.hero-section{
+    height: 300px;
+    padding-top: 150px;
+    margin-left: 100px;
+    display: flex;
+
+ }
+.hero-text{
+    font-size: large;
+    color: #3d1805;
+    font-weight: bolder;
+}
+.hero-text img{
+    position: absolute;
+    padding-left: 100px;
+    margin-top: -70px;
+    width: 400px;
+    height: 400px;
+    opacity: 0.7;
+}
+.hero-img img{
+    height: 300px;
+    width: 400px;
+    margin-top: -50px;
+    padding-left: 200px;
+} 
+.hero-text a{
+    position: absolute;
+    margin-top: 20px;
+    background-color: #d8b296;
+    font-weight: bold;
+    color: #6f4e37;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid #1b0e0eab;
+    padding: 10px 10px;
+    transition: 0.4s;
+}
+.hero-text a:hover{
+    background-color: #63331b;
+    color: #d3a889;
+}
