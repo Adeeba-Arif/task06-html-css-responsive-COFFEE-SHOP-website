@@ -25,7 +25,7 @@ body{
     cursor: pointer;
 }
 .nav-bar img:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 .anchor-links{
     margin-right: 50px;
@@ -73,9 +73,8 @@ body{
 .hero-text a{
     position: absolute;
     margin-top: 20px;
-    background-color: #c79873;
-    font-weight: bold;
-    color: #6f4e37;
+    background-color: #8d6a51;
+    color: #2c1d12;
     border-radius: 10px;
     text-decoration: none;
     border: 1px solid #1b0e0eab;
@@ -115,6 +114,7 @@ body{
     border-radius: 5px;
     box-shadow: 0 4px 8px #00000033;
     cursor: pointer;
+    transition: 0.8s;
 }
 .coffee img{
     margin-top: -70px;
@@ -126,6 +126,28 @@ body{
 .coffee h6{
     padding-top: 90px;
     color: #f1e4e4;
-    font-weight: bolder;
+    font-weight: bold;
+    font-size: large;
+}
+.group-coffee :hover{
+    transform: scale(1.2);
+}
+.coffee-description{
+    display: grid;
+    grid-template-columns: 20% 70%;
+    justify-content: space-evenly;
+    padding-top: 300px;
+}
+.descriptive-img img{
+    border-radius: 10px;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+}
+.descriptive-text p{
+    padding-top: 100px;
+    padding-left: 150px;
+    color: #2c1707;
     font-size: x-large;
 }
