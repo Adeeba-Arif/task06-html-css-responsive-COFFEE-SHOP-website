@@ -136,7 +136,7 @@ body{
     display: grid;
     grid-template-columns: 20% 70%;
     justify-content: space-evenly;
-    padding-top: 300px;
+    padding-top: 200px;
 }
 .descriptive-img img{
     border-radius: 10px;
@@ -144,6 +144,10 @@ body{
     width: 300px;
     height: 300px;
     margin-left: 100px;
+}
+.descriptive-text{
+    padding-top: 25px;
+    width: 90%;
 }
 .descriptive-text p{
     padding-top: 100px;
@@ -166,7 +170,8 @@ body{
 .cold-coffee{
     text-align: center;
     border-radius: 5px;
-    border: 1px solid rgb(46, 14, 14);
+    border: 1px solid #46222280;
+    box-shadow: 0 4px 15px #94646480;
     width: 250px;
     height: 250px;
     background-color: transparent;
@@ -201,7 +206,8 @@ body{
 .beans{
     text-align: center;
     border-radius: 5px;
-    border: 1px solid #2e0e0e;
+    border: 1px solid #42252580;
+    box-shadow: 0 4px 15px #915d5d80;
     width: 200px;
     height: 200px;
     background-color: transparent;
@@ -240,4 +246,352 @@ footer p{
     margin-top: 15px;
     width: 30px;
     height: 30px;
+}
+/* screen 1024px */
+@media(max-width:1024px){
+    .nav-bar{
+        height: 80px;
+    }
+    .nav-bar img{
+        width: 100px;
+        height: 100px;
+    }
+    /* .hero-text{
+        width: 60%;
+    } */
+    .hero-text img{
+       padding-top: 50px;
+       margin-left: -90px;
+       width: 350px;
+       height: 400px;
+    }
+    .hero-text a{
+        font-size: medium;
+    }
+    .hero-img img{
+        padding-top: 90px;
+        width: 300px;
+        padding-right: 40px;
+    }
+    #heading1{
+        padding-top: 100px;
+    }
+    .group-coffee{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 40px;
+    }
+    .coffee-description{
+        margin-top: -90px;
+    }
+    .descriptive-text{
+        width: 95%;
+    }
+    .descriptive-img img{
+        margin-left: 40px;       
+    }
+    .descriptive-text p{
+        padding-right: 30px;
+        font-size: larger;
+    }
+    .cold-coffee{
+        width: 170px;
+        height: 200px;
+    }
+    .cold-coffee img{
+        width: 90px;
+        height: 140px;
+        margin-top: -10px;
+    }
+    .beans{
+        width: 180px;
+        height: 200px;
+    }
+    .beans img{
+        width: 190px;
+        height: 300px;
+        margin-left: 5px;
+    }
+    footer{
+        height: 150px;
+    }
+}
+/*  screen 912px */
+@media(max-width:912px){
+    .nav-bar{
+        height: 80px;
+    }
+    .nav-bar img{
+        width: 100px;
+        height: 100px;
+    }
+    .hero-text img{ 
+       padding-top: 50px;
+       margin-left: -90px;
+       width: 350px;
+       height: 400px;
+    }
+    .hero-text a{
+        font-size: medium;
+    }
+    .hero-img img{
+        padding-top: 90px;
+        width: 250px;
+        padding-right: 40px;
+    }
+    #heading1{
+        padding-top: 100px;
+    }
+    .group-coffee{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 40px;
+    }
+    .coffee-description{
+        margin-top: -90px;
+    }
+    .descriptive-text{
+        width: 95%;
+    }
+    .descriptive-img img{
+        margin-left: 40px;       
+    }
+    .descriptive-text p{
+        padding-right: 30px;
+        font-size: larger;
+    }
+    .cold-coffee{
+        width: 170px;
+        height: 200px;
+    }
+    .cold-coffee img{
+        width: 90px;
+        height: 140px;
+        margin-top: -10px;
+    }
+    .beans{
+        width: 170px;
+        height: 200px;
+    }
+    .beans img{
+        width: 190px;
+        height: 300px;
+        margin-left: -5px;
+    }
+    footer{
+        height: 120px;
+    }
+    .footer-text h3{
+        font-size: medium;
+    }
+    .footer-text p{
+        font-size: small;
+    }
+    .footer-text img{
+        padding-top: 10px;
+        width: 30px;
+        height: 30px;
+    }
+}
+/* screen 786px */
+@media(max-width:786px){
+    .nav-bar{
+        height: 60px;
+    }
+    .nav-bar img{
+        width: 80px;
+        height: 70px;
+    }
+    .anchor-links{
+        margin-top: 15px;
+    }
+    .anchor-links a{
+        padding: 7px 20px;
+    }
+    .hero-text h1{
+        font-size: larger;
+    }
+    .hero-text p{
+        font-size: medium;
+    }
+    .hero-text img{ 
+       padding-top: 20px;
+       margin-left: -120px;
+       width: 300px;
+       height: 350px;
+    }
+    .hero-text a{
+        font-size: medium;
+    }
+    .hero-img img{
+        padding-top: 90px;
+        width: 200px;
+        height: 230px;
+        padding-right: 40px;
+    }
+    #heading1{
+        padding-top: 20px;
+    }
+    .group-coffee{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 40px;
+    }
+    .coffee-description{
+        margin-top: -90px;
+    }
+    .descriptive-text{
+        width: 90%;
+    }
+    .descriptive-img img{
+        width: 280px;
+        margin-left: 40px;       
+    }
+    .descriptive-text p{
+        padding-right: 30px;
+        font-size: larger;
+    }
+    .cold-coffee{
+        margin-top: -20px;
+        width: 140px;
+        height: 170px;
+    }
+    .cold-coffee img{
+        width: 70px;
+        height: 120px;
+        margin-top: -10px;
+    }
+    .cold-coffee h6{
+        font-size: medium;
+    }
+    #heading3{
+        margin-top: 60px;
+    }
+    .group-beans{
+        margin-top: 90px;
+    }
+    .beans{
+        width: 140px;
+        height: 160px;
+    }
+    .beans img{
+        width: 160px;
+        height: 270px;
+        margin-left: -5px;
+    }
+    footer{
+        height: 110px;
+    }
+    .footer-text h3{
+        font-size: medium;
+    }
+    .footer-text p{
+        font-size: small;
+    }
+    .footer-text img{
+        padding-top: 10px;
+        width: 30px;
+        height: 30px;
+    }
+}
+/* screen 668px */
+@media(max-width:786px){
+    .nav-bar{
+        height: 60px;
+    }
+    .nav-bar img{
+        width: 80px;
+        height: 70px;
+    }
+    .anchor-links{
+        margin-top: 15px;
+    }
+    .anchor-links a{
+        padding: 7px 20px;
+    }
+    .hero-text h1{
+        font-size: larger;
+    }
+    .hero-text p{
+        font-size: medium;
+    }
+    .hero-text img{ 
+       padding-top: 20px;
+       margin-left: -120px;
+       width: 300px;
+       height: 350px;
+    }
+    .hero-text a{
+        font-size: medium;
+    }
+    .hero-img img{
+        padding-top: 90px;
+        width: 200px;
+        height: 230px;
+        padding-right: 40px;
+    }
+    #heading1{
+        padding-top: 20px;
+    }
+    .group-coffee{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 40px;
+    }
+    .coffee-description{
+        margin-top: -90px;
+    }
+    .descriptive-text{
+        width: 90%;
+    }
+    .descriptive-img img{
+        width: 280px;
+        margin-left: 40px;       
+    }
+    .descriptive-text p{
+        padding-right: 30px;
+        font-size: larger;
+    }
+    .cold-coffee{
+        margin-top: -20px;
+        width: 140px;
+        height: 170px;
+    }
+    .cold-coffee img{
+        width: 70px;
+        height: 120px;
+        margin-top: -10px;
+    }
+    .cold-coffee h6{
+        font-size: medium;
+    }
+    #heading3{
+        margin-top: 60px;
+    }
+    .group-beans{
+        margin-top: 90px;
+    }
+    .beans{
+        width: 140px;
+        height: 160px;
+    }
+    .beans img{
+        width: 160px;
+        height: 270px;
+        margin-left: -5px;
+    }
+    footer{
+        height: 110px;
+    }
+    .footer-text h3{
+        font-size: medium;
+    }
+    .footer-text p{
+        font-size: small;
+    }
+    .footer-text img{
+        padding-top: 10px;
+        width: 30px;
+        height: 30px;
+    }
 }
