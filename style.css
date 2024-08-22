@@ -18,9 +18,9 @@ body{
 }
 .nav-bar img{
     padding-top: 10px;
-    margin-left: 50px;
-    width: 100px;
-    height: 80px;
+    margin-left: 90px;
+    width: 150px;
+    height: 100px;
     transition: 0.4s;
     cursor: pointer;
 }
