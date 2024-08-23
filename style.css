@@ -572,6 +572,10 @@ footer p{
         margin-left: 20px;       
     }
     .descriptive-text p{
+        /* text-overflow: ellipsis;
+        overflow: hidden;
+        display: block;
+        width: 200px; */
         padding-right: 30px;
         font-size: larger;
     }
@@ -579,7 +583,7 @@ footer p{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 40px;
-        padding-left: 80px;
+        padding-left: 100px;
     }
     .cold-coffee{
         margin-top: -20px;
@@ -704,14 +708,18 @@ footer p{
         margin-left: 20px;       
     }
     .descriptive-text p{
+        white-space: nowrap;        
+        overflow: hidden;           
+        text-overflow: ellipsis;     
+        width: 200px;              
+        display: block;
+        margin-left: -30px;
         padding-right: 30px;
         font-size: larger;
     }
     .group-cold-coffee{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        gap: 40px;
-        padding-left: 80px;
     }
     .cold-coffee{
         margin-top: -20px;
@@ -783,7 +791,7 @@ footer p{
         display: flex;
         flex-direction: column;
         font-size: small;
-        margin-top: 5px;
+        margin-top: 10px;
         width: 40px;
         height: 15px;
     }
